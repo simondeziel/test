@@ -1,7 +1,7 @@
 name: Commits
 on:
-  - pull_request
-  - push
+  - pull_request:
+  - push:
 
 permissions:
   contents: read
