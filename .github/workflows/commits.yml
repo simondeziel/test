@@ -26,7 +26,7 @@ jobs:
 
     - name: Check if CLA signed
       if: ${{ github.actor != 'dependabot[bot]' }}
-      uses: simondeziel/has-signed-canonical-cla
+      uses: simondeziel/has-signed-canonical-cla@main
 
     - name: Check branch target
       env:
