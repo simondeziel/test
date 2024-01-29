@@ -11,5 +11,4 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
     - name: Check if CLA signed
-      if: ${{ github.actor != 'dependabot[bot]' }}
-      uses: simondeziel/has-signed-canonical-cla@main
+      uses: simondeziel/has-signed-canonical-cla@implicit-approval-from-licenses
