@@ -7,8 +7,10 @@ on:
 
 jobs:
   commits:
-    name: CLA check
     runs-on: ubuntu-22.04
     steps:
-    - name: Check if CLA signed
-      uses: simondeziel/has-signed-canonical-cla@implicit-approval-from-licenses
+    - name: foo
+      id: bar
+      run: |
+        set -x
+        echo "1 ${{ steps.bar.name }}"
